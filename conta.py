@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from DesafioBanco.Cliente import Cliente
+from Cliente import Cliente
 
 
 class Conta(ABC, Cliente):

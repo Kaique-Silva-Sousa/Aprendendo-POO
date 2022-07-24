@@ -1,6 +1,6 @@
-from DesafioBanco.banco import Banco
-from DesafioBanco.Cliente import Cliente
-from DesafioBanco.conta import ContaCorrente, ContaPoupanca
+from banco import Banco
+from Cliente import Cliente
+from conta import ContaCorrente, ContaPoupanca
 
 banco = Banco()
 c1 = Cliente('Kaique', 17)
